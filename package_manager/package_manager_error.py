@@ -1,4 +1,4 @@
-from package_manager import ReturnCode
+from package_manager.return_code import ReturnCode
 
 
 class PackageManagerError(Exception):

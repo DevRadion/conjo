@@ -1,13 +1,15 @@
 import os
 import subprocess
 
-from logger import Logger, Level
+from logger import Level
+from logger.logger import Logger
 from package_manager.return_code import ReturnCode
 from system.systemcalls import SystemCalls
 
 
 class AptPackageManager:
     system_calls = SystemCalls()
+
     def update_packages(self):
         Logger.log("Updating packages...")
         args = ["sudo", "apt-get", "update"]

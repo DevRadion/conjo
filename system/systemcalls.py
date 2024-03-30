@@ -1,7 +1,8 @@
 import subprocess
 
 from config import Config
-from logger import Logger, Level
+from logger.level import Level
+from logger.logger import Logger
 
 
 class SystemCalls:
