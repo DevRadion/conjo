@@ -1,0 +1,4 @@
+cli:
+  log_level: VERBOSE
+  verbose: false
+  wait_for_input: false
