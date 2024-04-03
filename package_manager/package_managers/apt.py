@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-from logger import Level
+from logger.level import Level
 from logger.logger import Logger
 from package_manager.return_code import ReturnCode
 from system.systemcalls import SystemCalls
